@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+
+		</style>
+	</head>
+	<a>
+		<!--
+			块级元素和内联（行内）元素
+			div就是一个块级元素：
+				所谓块级元素就是会独占一行的元素，无论他的内容有多杀少
+				他都会独占一行
+				p h1 h2 ....
+				div是一个纯粹的块级元素，没有任何的结构，主要用于构造页面结构
+			span是一个内联元素
+				内联元素只会占自身的大小，多个可以拼接，超出页面时自动换行
+				常见的内联元素
+				a img iframe span
+
+			块级元素主要对页面进行布局
+			内联元素主要用来选中文本设置样式
+
+			一般我们用块来包裹内联  因为是用块来进行布局的
+
+			a元素特殊  可以包含除了本身的任意元素
+
+			p元素不能包含任何块元素 只能放内联元素
+
+		-->
+		<div style="background: #009ff2">123</div>
+		<div style="background: #009ff2;width: 100px">123</div>
+		<div style="background: #36f225;width: 100px">123</div>
+		<span style="background: #48f2a6;width: 100px">123</span>
+		<span style="background: #48f2a6;width: 100px">456</span>
+		<a href="#"><span style="background: #48f2a6;width: 100px">456</span></a>
+
+	</body>
+</html>
